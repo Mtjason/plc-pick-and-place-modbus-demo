@@ -16,3 +16,25 @@ All code runs locally in WSL/Linux – no physical PLC hardware is required.
 
 ## Folder Structure
 
+plc-pick-and-place-modbus-demo/
+├── cpp_client/
+│   ├── main.cpp
+│   ├── modbus_client.hpp
+│   ├── Makefile
+├── plc_program/
+│   └── pick_and_place.st
+└── README.md 
+
+
+## Requirements
+
+- [OpenPLC Runtime](https://www.openplcproject.com/runtime/) (installed and running)
+- Ubuntu/WSL or Linux environment
+- C++17 compiler (`g++`)
+- **libmodbus** (Modbus TCP C library)
+
+### Install libmodbus (on Ubuntu/WSL)
+
+```sh
+sudo apt-get update
+sudo apt-get install libmodbus-dev
