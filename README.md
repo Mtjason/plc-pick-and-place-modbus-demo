@@ -38,5 +38,3 @@ plc-pick-and-place-modbus-demo/
 ```sh
 sudo apt-get update
 sudo apt-get install libmodbus-dev
-
-![image](https://github.com/user-attachments/assets/404e1d1f-daed-4d79-a9c2-9a863dc31e26)
